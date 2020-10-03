@@ -1,0 +1,31 @@
+{
+  "engineer": [{
+    "action": ["WRITE", "UPDATE", "READ"],
+    "resource": "github"
+  }, {
+    "action": ["READ"],
+    "resource": "aws"
+  }],
+
+  "manager": [{
+    "action": ["WRITE", "UPDATE", "READ", "DELETE"],
+    "resource": "github"
+  }, {
+    "action": ["READ"],
+    "resource": "payroll"
+  }, {
+    "action": ["READ", "WRITE", "UPDATE"],
+    "resource": "aws"
+  }],
+
+  "hr": [{
+    "action": ["READ", "WRITE", "UPDATE", "DELETE"],
+    "resource": "payroll"
+  }],
+
+
+  "marketing": [{
+    "action": ["READ"],
+    "resource": "analytics"
+  }]
+}
